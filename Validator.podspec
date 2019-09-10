@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '10.0'
   s.swift_version = '5'
-  s.version = '3.2.1'
+  s.version = 'v3.2.2-ra'
   s.summary = 'Validator is a user input validation library written in Swift.'
   s.description  = <<-DESC
   Validator is a user input validation library written in Swift.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.author = { 'Adam Waite' => 'adam@adamjwaite.co.uk' }
   s.social_media_url = 'http://twitter.com/AdamWaite'
 
-  s.source = { :git => 'https://github.com/adamwaite/Validator.git', :tag => 'v3.2.1' }
+  s.source = { :git => 'https://github.com/resident-advisor/Validator', :tag => 'v3.2.2-ra' }
   s.source_files = 'Validator', 'Validator/Sources/**/*.swift'
   s.framework = 'UIKit'
 
